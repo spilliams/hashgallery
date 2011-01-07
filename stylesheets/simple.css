@@ -1,0 +1,7 @@
+h1, h2, h3, h4, h5, h6, ul, body, li { padding: 0 }
+a { text-decoration: none; color: #777; padding: 1px; }
+#nav a:hover { background: #333; color: #FFF;}
+img { border-width: 0 }
+* { margin: 0 }
+#nav { width: 161px; text-align: right; float: left; padding: 9px; border-right: 1px solid #000; margin-right: 9px;}
+#frame { margin: 18px; margin-left: 189px; }

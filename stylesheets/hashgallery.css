@@ -1,0 +1,22 @@
+#frame {
+  position: relative;
+}
+#thumbs {
+  margin-top:359px;
+}
+img.thumb {
+  height: 75px;
+}
+.photo {
+  position: absolute;
+  top: -359px;
+  left: 0;
+  display: none;
+}
+div.thumb { display: inline-block; }
+div.thumb:hover .photo {
+  display:block;
+}
+.hidden {display:none;}
+ul { list-style: none }
+ul ul { margin-right:9px; }

@@ -1,0 +1,17 @@
+Hashgallery starts with the assumption that a user does not have javascript enabled. It is meant to function at 95% without JS.
+Once JS is turned on, navigation links become function calls and page redirection is handled by ajax requests and an added hash to the url (hence the name).
+
+
+================
+= INSTALLATION =
+================
+
+Set up your galleries of photos in folders. You may nest them.
+Be aware that you may not have . # [ or ] as part of the image filenames.
+Also note that only jpg, jpeg and png  are accepted.
+If you want to include custom thumbnails, use the same filename except put "_thumb" at the end.
+
+Once you have things where you want them, run the command `ruby generateHtml.rb' from the site directory. This script generates html pages for each of the galleries.
+
+If you want to make changes and re-run the script, be aware that it does overwrite all html files it created.
+A simple script for destroying ALL html files from the directory tree has also been included for convenience.
